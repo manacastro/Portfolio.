@@ -1,0 +1,18 @@
+.contNav{
+   background-color:var(--color-dark);
+   
+}
+.name{
+    color:var(--color-ligth);
+    margin: 10px
+}
+.contentItems{
+    justify-content: flex-end;
+}
+.items{
+    color:var(--color-ligth);
+    text-decoration: none;
+}
+.items:hover{
+    color:var(--color-secundary);
+}

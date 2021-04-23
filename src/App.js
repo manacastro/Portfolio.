@@ -1,10 +1,18 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import NavBar from './components/navBar/NavBar';
 import './App.css';
+import React from "react";
+import { Card } from 'react-bootstrap';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+// class App extends Component {
+//   render() {
+//     return (
+
+      const App = () => (
+      <div className="App">
+        <NavBar />
+        
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +25,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
-}
+      </header> */}
+      </div>
+      )
 
 export default App;
