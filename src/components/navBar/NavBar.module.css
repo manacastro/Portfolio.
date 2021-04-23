@@ -1,6 +1,6 @@
 .contNav{
    background-color:var(--color-dark);
-   
+   color:orangered;
 }
 .name{
     color:var(--color-ligth);
