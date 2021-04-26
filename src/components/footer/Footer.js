@@ -19,13 +19,15 @@ class Footer extends React.Component {
                             </Row>
                         </Col>
                         <Col className={style.contentRedes}>                 
-                            <a href='https://wa.link/fsbuj9' className={style.textStyle} ><Whatsapp className={style.redes} /></a>
-                            <a href='https://www.facebook.com/marianacastr'>
+                            <a href='https://wa.link/fsbuj9' className={style.textStyle} >
+                                <Whatsapp className={style.redes} />
+                            </a>
+                            {/* <a href='https://www.facebook.com/marianacastr'>
                                 <Facebook className={style.redes} />
-                            </a>
-                            <a href='https://www.instagram.com/mbcastro17/?hl=es-la'>
+                            </a> */}
+                            {/* <a href='https://www.instagram.com/mbcastro17/?hl=es-la'>
                                 <Instagram className={style.redes} />
-                            </a>
+                            </a> */}
                             <a href='https://www.linkedin.com/in/marianabeatrizcastro'>
                                 <Linkedin className={style.redes} />
                             </a>
