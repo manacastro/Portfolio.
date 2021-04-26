@@ -1,6 +1,23 @@
 .redes{
     color: var(--color-ligth);
+    
 }
 .backFooter{
     background-color: var(--color-dark);
+    
+}
+.textStyle{
+    color: var(--color-ligth);
+    margin: 0px;
+    margin-left: 4px;
+}
+.contentRedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+.contentContact{
+    display: flex;
+    align-items: center;
 }

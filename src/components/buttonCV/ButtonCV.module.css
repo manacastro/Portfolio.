@@ -1,0 +1,29 @@
+.buttonCv{
+    text-decoration: none;
+    color: var(--color-primary);
+    background-color: var(--color-secundary);
+    text-decoration: none;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonCv:hover{
+    color: var(--color-dark);
+}
+.imgHome{
+    width: 50%;
+}
+.contHome{
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+}
+.butcont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

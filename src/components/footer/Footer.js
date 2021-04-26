@@ -10,20 +10,20 @@ class Footer extends React.Component {
             <>
                 <Container className={style.backFooter} fluid>
                     <Row>
-                        <Col >
+                        <Col className={style.contentContact}>
                             <Row>
-                                <Col><EnvelopeFill className={style.redes} /><p className={style.textStyle}>mb.castro17@gmail.com</p>
+                                <Col className={style.contentContact}><EnvelopeFill className={style.redes} /><p className={style.textStyle}>mb.castro17@gmail.com</p>
                                 </Col>
-                                <Col><Phone className={style.redes} /><p className={style.textStyle}>1121824716</p>
+                                <Col className={style.contentContact}><Phone className={style.redes}/><p className={style.textStyle}>1121824716</p>
                                 </Col>
                             </Row>
                         </Col>
-                        <Col >                 
+                        <Col className={style.contentRedes}>                 
                             <a href='https://wa.link/fsbuj9' className={style.textStyle} ><Whatsapp className={style.redes} /></a>
                             <a href='https://www.facebook.com/marianacastr'>
                                 <Facebook className={style.redes} />
                             </a>
-                            <a href='https://https://www.instagram.com/mbcastro17/?hl=es-la'>
+                            <a href='https://www.instagram.com/mbcastro17/?hl=es-la'>
                                 <Instagram className={style.redes} />
                             </a>
                             <a href='https://www.linkedin.com/in/marianabeatrizcastro'>
