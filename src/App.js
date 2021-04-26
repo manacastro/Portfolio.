@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import NavBar from './components/navBar/NavBar';
+import Footer from './components/footer/Footer';
 import './App.css';
 import React from "react";
 import { Card } from 'react-bootstrap';
@@ -26,6 +27,7 @@ import { Card } from 'react-bootstrap';
           Learn React
         </a>
       </header> */}
+      <Footer />
       </div>
       )
 

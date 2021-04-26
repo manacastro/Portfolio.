@@ -2,8 +2,6 @@ import React, { Component, } from "react";
 import { Navbar, Link, Nav, FormControl, Button } from "react-bootstrap";
 import style from '../navBar/NavBar.module.css';
 
-console.log(style)
-
 class NavBar extends React.Component {
     render() {
         return (
