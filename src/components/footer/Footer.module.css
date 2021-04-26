@@ -1,10 +1,11 @@
 .redes{
-    color: var(--color-ligth);
-    
+    color: var(--color-ligth);    
+}
+.redes:hover{
+    color: var(--color-secundary);
 }
 .backFooter{
-    background-color: var(--color-dark);
-    
+    background-color: var(--color-dark);    
 }
 .textStyle{
     color: var(--color-ligth);

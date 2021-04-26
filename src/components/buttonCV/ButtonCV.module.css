@@ -12,7 +12,8 @@
     justify-content: center;
 }
 .buttonCv:hover{
-    color: var(--color-dark);
+    color: var(--color-ligth);
+    background-color: var(--color-dark);
 }
 .imgHome{
     width: 50%;
